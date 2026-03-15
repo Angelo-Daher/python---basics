@@ -1,0 +1,11 @@
+tarefas = []
+while true:
+tarefa = input('Digite uma tarefa: ')
+if tarefa == 'sair':
+  break
+
+tarefas.append(tarefa)
+
+print('Suas tarefas')
+for t in tarefas:
+print('-',t)
